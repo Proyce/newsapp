@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.xtreme-bold {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.no-outline {
+  outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255 0.5);
+  font-weight: bold;
+}
+
+.card-columns {
+  display: inline-block;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  margin: auto;
+}
