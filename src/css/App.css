@@ -34,10 +34,6 @@ body {
   font-weight: bold;
 }
 
-.card-columns {
-  display: inline-block;
-}
-
 .card {
   display: inline-block;
   width: 30%;
@@ -50,4 +46,34 @@ body {
   height: 200px;
   width: 100%;
   margin: auto;
+}
+
+@media screen and (max-width: 950px) {
+  .card {
+    display: inline-block;
+    width: 42%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
 }
