@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../components/Footer";
 
 class Technology extends Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class Technology extends Component {
 
   componentDidMount() {
     fetch(
-      "https://newsapi.org/v2/everything?domains=techcrunch.com,mashable.com,zdnet.com,wired.com,arstechnica.com,thenextweb.com,engadget.com,theverge.com,gizmodo.com,cnet.com,techradar.com,androidcentral.com&pageSize=99&apiKey=955552661b2a4d018ca8db24cf87012b"
+      "https://newsapi.org/v2/everything?domains=techcrunch.com,mashable.com,zdnet.com,wired.com,arstechnica.com,thenextweb.com,engadget.com,theverge.com,gizmodo.com,cnet.com,techradar.com,androidcentral.com,pcworld.com&pageSize=99&apiKey=955552661b2a4d018ca8db24cf87012b"
     )
       .then((response) => response.json())
       .then((data) => this.setState({ articles: data.articles }))
@@ -22,7 +23,7 @@ class Technology extends Component {
     return (
       <>
         <section className="jumbotron">
-          <h1>Technology News</h1>
+          <h1 className="text-danger text-center">Technology News</h1>
         </section>
 
         <section className="container-fluid">
@@ -60,6 +61,7 @@ class Technology extends Component {
             );
           })}
         </section>
+        <Footer/>
       </>
     );
   }

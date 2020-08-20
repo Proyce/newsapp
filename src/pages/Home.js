@@ -20,7 +20,7 @@ class Home extends Component {
     return (
       <>
         <section className="jumbotron">
-          <h1 className="text-center">Welcome to ProyceNews</h1>
+          <h1 className="text-center text-danger">Welcome to ProyceNews</h1>
         </section>
 
         <section className="container-fluid">

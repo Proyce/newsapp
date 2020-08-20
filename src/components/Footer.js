@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
-            <nav className="navbar navbar-dark bg-danger navbar-expand-lg">
+            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
                 <span className="navbar-brand mb-0 h1 xtreme-bold">ProyceNews</span>
                 <button
                     className="navbar-toggler"

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../components/Footer";
 
 class Entertainment extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class Entertainment extends Component {
     return (
       <>
         <section className="jumbotron">
-          <h1>Entertainment News</h1>
+          <h1 className="text-danger text-center">Entertainment News</h1>
         </section>
 
         <section className="container-fluid">
@@ -60,7 +61,7 @@ class Entertainment extends Component {
             );
           })}
         </section>
-
+        <Footer/>
       </>
     );
   }

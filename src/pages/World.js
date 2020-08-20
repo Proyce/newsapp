@@ -23,7 +23,7 @@ class WorldNews extends Component {
     return (
       <>
         <section className="jumbotron">
-          <h1>WorldNews</h1>
+          <h1 className="text-danger text-center">WorldNews</h1>
         </section>
 
         <section className="container-fluid">
